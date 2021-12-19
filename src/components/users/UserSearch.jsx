@@ -14,7 +14,7 @@ function UserSearch() {
     e.preventDefault();
 
     if (text === '') {
-      setAlert('Please enter something', 'error');
+      setAlert('Search field cant be blank!', 'error');
     } else {
       searchUsers(text);
       setText('');
